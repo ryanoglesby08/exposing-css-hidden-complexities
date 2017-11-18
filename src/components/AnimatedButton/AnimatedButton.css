@@ -1,0 +1,18 @@
+.button {
+  padding: 1rem;
+
+  font-size: 1rem;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.inline {
+  display: inline-block;
+  min-width: 200px;
+}
+
+.fullWidth {
+  display: block;
+  width: 100%;
+}

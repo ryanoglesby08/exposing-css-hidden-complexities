@@ -1,0 +1,3 @@
+```
+<AnimatedButton>Press me</AnimatedButton>
+```

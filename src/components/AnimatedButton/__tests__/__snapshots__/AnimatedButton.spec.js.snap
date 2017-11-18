@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimatedButton renders post color shift 1`] = `
+<Component>
+  <Media
+    defaultMatches={true}
+    query={
+      Object {
+        "maxWidth": 767,
+      }
+    }
+  >
+    <Button
+      className="fullWidth"
+    >
+      <BgColorShift
+        end="#1d70a2"
+        in={true}
+        start="#2892d7"
+        timeout={500}
+      >
+        <Transition
+          appear={false}
+          enter={true}
+          exit={true}
+          in={true}
+          mountOnEnter={false}
+          onEnter={[Function]}
+          onEntered={[Function]}
+          onEntering={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onExiting={[Function]}
+          timeout={500}
+          unmountOnExit={false}
+        >
+          <button
+            className="button fullWidth"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#1d70a2",
+                "transition": "background-color 500ms",
+              }
+            }
+          >
+            Press me
+          </button>
+        </Transition>
+      </BgColorShift>
+    </Button>
+  </Media>
+</Component>
+`;
+
+exports[`AnimatedButton renders pre color shift 1`] = `
+<button
+  class="button fullWidth"
+  style="transition:background-color 500ms;background-color:#2892d7"
+>
+  Press me
+</button>
+`;

@@ -1,20 +1,11 @@
 import React from "react";
 import { mount } from "enzyme";
 
+import mockMatchMedia from "../../../__mocks__/matchMedia";
+
 import ResponsiveButton from "../ResponsiveButton";
 
 describe("ResponsiveButton", () => {
-  const mockMatchMedia = matches => {
-    const matchMedia = jest.fn();
-    matchMedia.mockImplementation(() => ({
-      matches,
-      addListener: () => {},
-      removeListener: () => {}
-    }));
-
-    global.matchMedia = matchMedia;
-  };
-
   it("is full width on small viewports", () => {
     mockMatchMedia(true);
 
