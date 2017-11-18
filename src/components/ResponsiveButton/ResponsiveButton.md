@@ -1,0 +1,3 @@
+```
+<ResponsiveButton>Press me</ResponsiveButton>
+```
