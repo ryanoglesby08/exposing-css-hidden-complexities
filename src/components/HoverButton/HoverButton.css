@@ -4,17 +4,12 @@
 
   padding: 1rem;
 
-  background-color: #2892d7;
   transition: background-color 0.5s;
 
   font-size: 1rem;
   color: #ffffff;
 
   cursor: pointer;
-}
-
-.button:hover {
-  background-color: #1d70a2;
 }
 
 @media (max-width: 767px) {

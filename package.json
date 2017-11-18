@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "test": "jest",
+    "test:watch": "yarn test --watch"
   },
   "dependencies": {
     "react": "^16.1.1",
@@ -16,9 +18,17 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^21.2.1",
+    "jest-enzyme": "^4.0.1",
     "prettier": "^1.8.2",
     "react-styleguidist": "^6.0.33",
     "webpack": "^3.8.1",
     "webpack-blocks": "^1.0.0-rc.2"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js"
   }
 }
