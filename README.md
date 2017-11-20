@@ -1,5 +1,7 @@
 # Exposing CSS Hidden Complexities
 
+Accompanying blog post outlining the development of this repo: <http://ryanogles.by/css/javascript/react/2017/11/17/exposing-css-hidden-complexities-with-react.html>
+
 ## Motivation
 
 This repo is an exploration of shifting complexity out of CSS and into JavaScript, using React as the core view library.
@@ -29,6 +31,9 @@ with React's built-in state management, `setState`.
 
 ```bash
 yarn install
+
+# Run tests
+yarn test
 
 # Run the live showcase/playground in dev server mode
 yarn styleguide
